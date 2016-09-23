@@ -17,6 +17,6 @@ namespace WeatherService.Common
         public DateTime SunRise { get; set; }
         public DateTime SunSet { get; set; }
         public double Lon { get; set; }
-        public double lat { get; set; }
+        public double Lat { get; set; }
     }
 }

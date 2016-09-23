@@ -32,7 +32,7 @@ namespace WeatherService
         {
             Console.WriteLine("------ City -------");
             Console.WriteLine(" 1. ID: {0}\n 2. Country: {1}\n 2. Name: {2}\n 3. Lon: {3}\n 4. Lat: {4}\n 3. Sunrise: {5}\n 4. Sunset: {6}\n", 
-                City.ID, City.Country, City.Name, City.Lon, City.lat, City.SunRise, City.SunSet);
+                City.ID, City.Country, City.Name, City.Lon, City.Lat, City.SunRise, City.SunSet);
 
             Console.WriteLine("\n------ Temperature -------");
             Console.WriteLine(" 1. Value: {0}\n 2. Max: {1}\n 2. Min: {2}\n 3. Unit: {3}\n",

@@ -99,7 +99,7 @@ namespace WeatherService.Services
                                       ID = city.Attribute("id")?.Value ?? "",
                                       Name = city.Attribute("name")?.Value ?? "",
                                       Lon = Convert.ToDouble(city.Element("coord")?.Attribute("lon")?.Value ?? "-1"),
-                                      lat = Convert.ToDouble(city.Element("coord")?.Attribute("lat")?.Value ?? "-1"),
+                                      Lat = Convert.ToDouble(city.Element("coord")?.Attribute("lat")?.Value ?? "-1"),
                                       Country = city.Element("country")?.Value ?? "",
                                       SunSet = Convert.ToDateTime(city.Element("sun")?.Attribute("set")?.Value ?? "-1"),
                                       SunRise = Convert.ToDateTime(city.Element("sun")?.Attribute("rise")?.Value ?? "-1")
